@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valor1 = prompt('escolha um valor: ')
+        let valor2 = prompt('escolha um valor: ')
+        let op = prompt('escolha sua opção: ')
+
+        if (op == 1) {
+            let soma = valor1 + valor2
+            alert(`o resultado da soma é: ${soma}`)
+
+        }else if(op == 2){
+            let subtracao = valor1 - valor2
+            alert(`o resultado da subtração é: ${subtracao}`)
+
+        }else if(op == 3){
+            let multiplicacao = valor1 * valor2
+            alert(`o resultado da multiplicação é: ${multiplicacao}`)
+
+        }else if(op == 4){
+            let divisao = valor1 / valor2
+            alert(`o resultado da divisão é: ${divisao}`)
+        }else{
+            alert('opção invalida')
+        }
+
+
+    </script>
+</body>
+</html>
